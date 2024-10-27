@@ -17,7 +17,6 @@ cd taoufik_academic_labs_assignment
 2. Create a `.env` file in the root directory:
 
 ```bash
-bash
 OPENAI_API_KEY=your_openai_api_key_here
 ```
 The already provided key was fully consumed, but the key will nonetheless not error out the job, it wil just write an error in the logs and provide a disease of that same log.
