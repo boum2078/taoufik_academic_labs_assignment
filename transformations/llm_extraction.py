@@ -24,7 +24,7 @@ class DiseaseExtractionTransformation(TransformationStrategy):
         self.logger = logging.getLogger(self.__class__.__name__)
         
         # Initialize LLM components
-        self.llm = ChatOpenAI(model="gpt-4", temperature=0)
+        self.llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
         self.prompt_template = PromptTemplate(
             input_variables=["text"],
             template="Identify and list all diseases or medical conditions in the following text. Do not include any other text, if it does not incldue any disease return an empty string.\n\nText: {text}"
