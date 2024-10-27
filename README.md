@@ -1,6 +1,6 @@
 # Clinical Trials Pipeline Setup Guide
 
-A pipeline for processing clinical trial data, extracting conditions using LLM, and storing in MongoDB.
+A pipeline for processing clinical trial data, extracting conditions using LLM, and storing in MongoDB. This was done as an assignment for the academic labs.
 
 ## Prerequisites
 - Docker and Docker Compose installed
@@ -11,8 +11,8 @@ A pipeline for processing clinical trial data, extracting conditions using LLM, 
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd academic_labs_assignement
+git clone <repository-url> taoufik_academic_labs_assignment
+cd taoufik_academic_labs_assignment
 ```
 2. Create a `.env` file in the root directory:
 
