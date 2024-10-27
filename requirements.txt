@@ -1,0 +1,7 @@
+requests
+pymongo
+openai
+python-dotenv
+langchain
+langchain-openai
+openai

@@ -1,0 +1,7 @@
+README.md
+setup.py
+clinical_trial_pipeline.egg-info/PKG-INFO
+clinical_trial_pipeline.egg-info/SOURCES.txt
+clinical_trial_pipeline.egg-info/dependency_links.txt
+clinical_trial_pipeline.egg-info/requires.txt
+clinical_trial_pipeline.egg-info/top_level.txt

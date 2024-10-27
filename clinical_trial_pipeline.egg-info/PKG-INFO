@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: clinical_trial_pipeline
+Version: 0.1.0
+Summary: A pipeline for processing clinical trial data
+Author: Taoufik Bourgana
+Author-email: taoufik.bourgana@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pymongo
+Requires-Dist: openai
+Requires-Dist: langchain
+Requires-Dist: python-dotenv
+Requires-Dist: langchain-openai
+Requires-Dist: openai
+
+# Clinical Trials Pipeline
+
+## Overview
+This project retrieves clinical trials data, transforms it, extracts conditions from eligibility criteria using an LLM, and stores it in MongoDB. 
+
+## Setup
+1. Clone the repository.
+2. Set the `OPENAI_API_KEY` environment variable.
+3. Ensure Docker is installed.
+
+## Running the Pipeline
+1. Run `docker-compose up --build`.
+2. The pipeline will retrieve, transform, and store data into MongoDB.
+
+## Project Structure
+- `clients`: Contains API and database clients (Factory Pattern).
+- `transformations`: Contains transformation strategies (Strategy Pattern).
+- `pipeline`: Pipeline orchestration with a Facade.
