@@ -17,6 +17,4 @@ setup(
     author_email="taoufik.bourgana@gmail.com",
     description="A pipeline for processing clinical trial data",
     long_description=open("README.md").read(),
-    long_description_content_type="text/markdown",
-    # url="https://github.com/yourusername/clinical_trial_pipeline",
-)
+    long_description_content_type="text/markdown")
