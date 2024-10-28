@@ -60,6 +60,7 @@ docker-compose logs -f app
 ## Further improvements
 * Add more unit tests and integration tests
 * Develop CI-CD pipelines : linting, testing, building, deploying
+* The way the pipeline is set up, it should be easy to establish new data sources and link them ot the current pipeline to update for example researchers, investigators, etc...
 * Add a cron job to run the pipeline every period of time
 * Add a way to check if the data is up to date before updating the database, and if it is not up to date, update the database with the new data, this can be done byc hecking the latest update date of the data in the database and comparing it to the latest update date of the data in the mongo db
 * Add other datasources (reasearcher, principl investigators, etc...) to enrich the mondodb collection of studies.
