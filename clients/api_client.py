@@ -142,13 +142,12 @@ class APIClientFactory:
     
     @staticmethod
     def get_api_client(source_name):
-        match source_name:
-            case "clinical_trials":
-                return ClinicalTrialsAPIClient()
-            case "mocked_api":
-                return MockedDataSourceClient()
-            case _:
-                raise ValueError(f"Unknown API client source: {source_name}")
+        if source_name == "clinical_trials":
+            return ClinicalTrialsAPIClient()
+        elif source_name == "mocked_api":
+            return MockedDataSourceClient()
+        else:
+            raise ValueError(f"Unknown source: {source_name}")
             
 if __name__ == "__main__":
     result = []

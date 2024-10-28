@@ -5,3 +5,5 @@ python-dotenv
 langchain
 langchain-openai
 openai
+pytest
+pytest-mock

@@ -12,6 +12,8 @@ setup(
         "python-dotenv",
         "langchain-openai",
         "openai",
+        "pytest",
+        "pytest-mock"
     ],
     author="Taoufik Bourgana",
     author_email="taoufik.bourgana@gmail.com",

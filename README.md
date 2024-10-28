@@ -58,7 +58,7 @@ docker-compose logs -f app
 ```
 
 ## Further improvements
-* Add unit tests and integration tests
+* Add more unit tests and integration tests
 * Develop CI-CD pipelines : linting, testing, building, deploying
 * Add a cron job to run the pipeline every period of time
 * Add a way to check if the data is up to date before updating the database, and if it is not up to date, update the database with the new data, this can be done byc hecking the latest update date of the data in the database and comparing it to the latest update date of the data in the mongo db
